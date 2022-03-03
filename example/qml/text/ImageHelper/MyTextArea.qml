@@ -34,11 +34,10 @@ TextArea
         onNeedUpdate:
         {
             //editor.update() 这句不起作用，编辑器未改变，就不会更新，用下面的方法
-            /*
+
             let alpha = editor.color.a;
             editor.color.a = alpha - 0.01;
             editor.color.a = alpha;
-            */
         }
     }
 }
